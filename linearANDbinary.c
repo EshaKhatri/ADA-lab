@@ -61,7 +61,7 @@ void ls(){
     
     end = clock();
     double time_taken = ((double)(end-start))/CLOCKS_PER_SEC;
-    printf("\nls() took %f seconds to execute \n", time_taken);
+    printf("\nLinear search took %f seconds to execute \n", time_taken);
 
 }
 
@@ -98,6 +98,6 @@ void bs(){
     
     end = clock();
     double time_taken = ((double)(end-start))/CLOCKS_PER_SEC;
-    printf("\nls() took %f seconds to execute \n", time_taken);
+    printf("\nBinary search took %f seconds to execute \n", time_taken);
 
 }
