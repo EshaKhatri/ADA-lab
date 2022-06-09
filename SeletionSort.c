@@ -53,7 +53,7 @@ void main()
 	end = clock();
     double time_taken = ((double)(end-start))/CLOCKS_PER_SEC;
     printf("Sorted array: \n");
-    printf("\nLinear search took %f seconds to execute \n", time_taken);
+    printf("\nSelection Sort took %f seconds to execute \n", time_taken);
 	printArray(arr, n);
 	printf("Press 1 if you wanna check for another array if not enter 0 :");
 	scanf("%d",&ch);
