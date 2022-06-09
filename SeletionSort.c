@@ -32,8 +32,9 @@ void printArray(int arr[], int size)
 	printf("\n");
 }
 
-int main()
-{  int n;
+void main()
+{  while(1){
+    int n,ch;
     printf("\nenter the number of elements in the array\n");
     scanf("  %d",&n);
      int arr[n];
@@ -54,5 +55,9 @@ int main()
     printf("Sorted array: \n");
     printf("\nLinear search took %f seconds to execute \n", time_taken);
 	printArray(arr, n);
-	return 0;
+	printf("Press 1 if you wanna check for another array if not enter 0 :");
+	scanf("%d",&ch);
+	if(ch==0)
+	exit(0);
+}
 }
